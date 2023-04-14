@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+	scroll-behavior: smooth;
+    font: 14px/24px 'Poppins', sans-serif;
+    color: #666;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+}
+
+a{
+	color: #666;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, p{
+	margin: 0;
+	padding: 0;
+}
+
+/*TEXT*/
+
+.align_center{
+    text-align: center;
+}
+
+p{
+    font-size: 14px;
+}
+
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+    color: #666;
+    line-height: 1.12em;
+    font-weight: normal;
+    font-size: 45px;
+}
+
+h4{
+    font-family: 'Rubik', sans-serif;
+    color: #666;
+    line-height: 1.12em;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+/*GENERAL*/
+
+.margin100{
+    margin: 100px;
+}
+
+.marginTop100{
+    margin-top: 100px;
+}
+
+.border_right{
+    border-right: 2px dotted #666;
+  }
+
+  .margin100 {
+      margin: 100px;
+  }
+  
+  .margin30{
+      margin: 30px 0 30px 0;
+  }
+
+  .paddingTop10{
+    padding-top: 10px;
+  }
+  
+  .padding50 {
+      padding: 50px;
+  }
+
+  /*LOGO*/
+
+  #logo{
+    padding:50px 0 50px 0;
+}
+
+/*IMG*/
+
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/*LOGO - FRASE PORTADA - IMG PORTADA*/
+
+
+/*FLEX*/
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.columns{
+    display: flex;
+}
+
+.column{
+    display:flex;
+    align-items: center;
+    flex: 1;
+}
+
+.justifyFlexEnd{
+    justify-content: flex-end;
+}
+
+.justifyCenter{
+    justify-content: center;
+}
+
+
+/*CONTENT*/
+
+.bck_green{
+	background-color: #e2e9cb;
+}
+
+.bck_yellow{
+    background-color: #fedf63;
+}
+
+.bck_orange{
+    background-color: #db5538;
+}
+
+#first_content span, #second_content span{
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+#first_content{
+    margin: 100px;
+}
+
+#content{
+  margin: 0 auto;
+}
+
+#third_content .column img{
+  width:100px;
+}
+
+#third_content{
+    margin: 30px 0 30px 0;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#third_content img{
+    padding-bottom: 20px;
+}
+
+#third_content p{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#fourth_content{
+    padding: 50px 50px 50px 120px;
+    justify-content: center;
+    text-align: center;
+}
+
+#fourth_content img{
+    width: 60px;
+}
+
+#fourth_content p{
+    color: #fff;
+    margin-top: 20px;
+}
+
+/*ANCHOR*/
+
+/* unvisited link */
+    a:link {
+	color: 666;
+	font-weight: 700;
+  }
+  
+  /* visited link */
+  a:visited {
+	color: 666;
+	font-weight: 700;
+  }
+  
+  /* mouse over link */
+  a:hover {
+	color: 666;
+	font-weight: 700;
+  }
+  
+  /* selected link */
+  a:active {
+	color: 666;
+	font-weight: 700;
+  }
+
+/*PIE*/
+
+.background_foot{
+    background-color: #000;
+    color:#666;
+}
+
+#pie{
+    padding: 60px;
+}
+
+#pie .imagesDesignedBy{
+    width:150px; 
+    float:left; 
+    margin:0 auto;
+}
+
+#pie .logoFreeIcons{
+    float:left; 
+    padding-left: -150px;
+    width: 100px;
+}
+
+#pie .logoFreepik{
+    float:left; 
+    padding-left: 30px;
+    width: 70px;
+}
+
+@media screen and (max-width: 800px){
+
+    h3{
+        font-size: 30px;
+    }
+
+    #first_content{
+        margin: 50px 30px 100px 30px;
+    }
+
+    #first_content h3, #second_content h3{
+        padding-bottom: 10px;
+    }
+
+    #second_content span{
+        padding: 30px;
+    }
+
+    #second_content img{
+        padding-top: 30px;
+    }
+
+    #first_content span{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    #third_content .column, #fourth_content .column{
+        padding-bottom: 30px;
+    }
+
+    #fourth_content{
+        padding: 50px 0 50px 0;
+    }
+
+    #content{
+        width: 100%;
+        margin:0 auto;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    #first_content.columns {
+        flex-direction: column-reverse;
+    }   
+
+    .columns{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .columns span, .column img{
+        width:100%;
+    }
+
+    .border_right{border:none;}
+
+}
